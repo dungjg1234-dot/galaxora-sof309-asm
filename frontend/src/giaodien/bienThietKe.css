@@ -1,0 +1,284 @@
+.gx-khung-trang {
+  --gx-vung-bam: 44px;
+  --gx-dong-tieu-de: 1.2;
+  --gx-nhip-luoi: clamp(.85rem, 1.6vw, 1.45rem);
+  --gx-tieu-de-chuyen-mau: linear-gradient(112deg, #f8fbff 6%, #cdd5ff 43%, #9deaff 77%, #e9c5ff 100%);
+  --gx-tieu-de-quang: radial-gradient(ellipse, #6952df45, #42b7f326 40%, transparent 72%);
+  --gx-tieu-de-bong: drop-shadow(0 .1em .55em #7181e34f);
+  --gx-nen-vignette: radial-gradient(ellipse at 53% 29%, transparent 36%, #020410b8 100%);
+  --gx-nen-tinh-van: radial-gradient(ellipse at 18% 20%, #8d438869, transparent 40%),
+    radial-gradient(ellipse at 76% 26%, #2e77d866, transparent 43%),
+    radial-gradient(ellipse at 79% 69%, #5040ac77, transparent 45%),
+    radial-gradient(ellipse at 19% 83%, #a1458855, transparent 41%);
+  --gx-nen-sao-gan: radial-gradient(2px 2px at 12% 18%, #c6e9ffbc 30%, transparent 100%),
+    radial-gradient(1.5px 1.5px at 56% 49%, #dec8ffd9 30%, transparent 100%),
+    radial-gradient(1px 1px at 84% 68%, #f5c6f8b3 25%, transparent 100%);
+  --gx-mat-the: linear-gradient(140deg, #17224a, #100f2d 57%, #221639);
+  --gx-mat-the-gon: linear-gradient(140deg, #141e37, #11162c);
+  --gx-vien-pho: linear-gradient(128deg, #7aa9e4, #6b64b4 42%, #ad83cc 78%, #667fc3);
+  --gx-vien-quay: conic-gradient(transparent 5%, #a2edff 18%, #b185ff 26%, transparent 39%, transparent 68%, #e8aaff 86%, transparent 96%);
+  --gx-vet-sang: linear-gradient(110deg, transparent 8%, #9cdcff19 44%, #dcd0ff46 55%, transparent 91%);
+  --gx-vet-sang-nut: linear-gradient(110deg, transparent 6%, #ffffff3b 47%, #fff5ff62 57%, transparent 90%);
+  --gx-vet-sang-dang-nhap: linear-gradient(110deg, transparent 6%, #e3d7ff20 53%, transparent 90%);
+  --gx-quang-nut: 0 0 1.3rem #8b6bfa82, 0 0 .7rem #5abcf37a;
+  --gx-nhan-anh-sang: radial-gradient(ellipse at 48% 53%, #b5e5ff72, #aa81eb33 49%, transparent 72%);
+  --gx-nhan-dang-nhap: radial-gradient(ellipse, #d5c5ff30, transparent 72%);
+  --gx-icon-quang: #896beb;
+  --gx-icon-mat: #151837;
+  --gx-icon-vien: #728cc7;
+  --gx-icon-cyan: #99edff;
+  --gx-icon-tim: #dcb9ff;
+  --gx-icon-ruot: #d0ecff;
+  --gx-icon-bong: drop-shadow(0 0 .24rem #9b78f065);
+  --gx-nen: #01081d;
+  --gx-nen-cuoi: #0e112f;
+  --gx-chu: #f4f7ff;
+  --gx-chu-nhe: #c7d3ed;
+  --gx-cyan: #83deff;
+  --gx-tim: #c695ff;
+  --gx-vien: #829ed6;
+  --gx-kinh: #101a36;
+  --gx-chuyen-mau: linear-gradient(105deg, #65dcff, #979af9 56%, #c783f5);
+  --gx-le: clamp(1rem, 3.9vw, 4.75rem);
+  --gx-khoang: clamp(.85rem, 1.2vw, 1.3rem);
+  --gx-rong: 105rem;
+  --gx-nen-vu-tru: radial-gradient(ellipse at 39% 19%, #53267770, transparent 31%),
+    radial-gradient(ellipse at 75% 28%, #1240a066, transparent 36%),
+    radial-gradient(ellipse at 16% 86%, #202d8e77, transparent 35%),
+    radial-gradient(ellipse at 92% 76%, #17339160, transparent 38%),
+    linear-gradient(170deg, var(--gx-nen) 12%, var(--gx-nen-cuoi) 100%);
+  --gx-nen-sao: radial-gradient(1px 1px at 25% 29%, #d7e8ffd9, transparent),
+    radial-gradient(1px 1px at 71% 68%, #b5baffd9, transparent),
+    radial-gradient(1px 1px at 44% 59%, #8bb9ffbf, transparent),
+    radial-gradient(1.5px 1.5px at 85% 41%, #d2d7ffad, transparent),
+    radial-gradient(1px 1px at 12% 11%, #918adff0, transparent);
+  --gx-bong-kinh: inset 0 0 1.1rem #758bdb19, 0 0 1.1rem #3a71e026;
+  --gx-nen-kinh-trong: linear-gradient(125deg, #17213cec, #090e24e6 60%, #151c3ee8);
+  --gx-vien-focus: #b8f1ff;
+  --gx-nen-dau: linear-gradient(90deg, #04091bcf, #060b1c91 58%, #03081ae0);
+  --gx-vien-dau: #8497d827;
+  --gx-bong-logo: drop-shadow(0 0 .65rem #416dffa8);
+  --gx-chu-dieu-huong-noi: #a9ecff;
+  --gx-nen-muc-hien-tai: radial-gradient(ellipse at bottom, #254badab, transparent 71%);
+  --gx-vien-muc-hien-tai: #b1a3f4;
+  --gx-nen-vach-hien-tai: linear-gradient(90deg, transparent, #8beaff, transparent);
+  --gx-bong-vach-hien-tai: 0 0 .65rem #5bceff;
+  --gx-nen-nut-tai-khoan: linear-gradient(#080e23, #080e23) padding-box, var(--gx-chuyen-mau) border-box;
+  --gx-bong-nut-tai-khoan: inset 0 0 .75rem #5ca7fc37, 0 0 .83rem #549aff42;
+  --gx-bong-nut-tai-khoan-hover: inset 0 0 .9rem #5ca7fc60, 0 0 1rem #549aff77;
+  --gx-nen-so-gio: #bb164a;
+  --gx-trang: #fff;
+  --gx-vien-nut: #a3a9d3;
+  --gx-vien-nut-chinh: #bbd7ff;
+  --gx-chu-nut-chinh: #0b1230;
+  --gx-bong-nut-chinh: inset 0 0 .75rem #eff4ff37, 0 0 1rem #5696ff8a;
+  --gx-bong-nut-chinh-hover: inset 0 0 .7rem #ffffff70, 0 0 1.25rem #76abffd9;
+  --gx-nen-nut-phu: #070d25cc;
+  --gx-chu-nut-phu: #f3f5ff;
+  --gx-nen-nut-phu-hover: #152351;
+  --gx-vien-nut-tron: #8d9dcf;
+  --gx-nen-nut-tron: #141e3fa8;
+  --gx-nen-xp: #242d4e;
+  --gx-chu-xp: #68e4ff;
+  --gx-day-xp: linear-gradient(90deg, #38baff, #74ecff);
+  --gx-chu-lien-ket: #a6e6ff;
+  --gx-vien-san-pham: #687cb7;
+  --gx-nen-san-pham: #0d1731;
+  --gx-bong-san-pham: 0 .2rem .8rem #050d244d;
+  --gx-vien-san-pham-hover: #9bdcff;
+  --gx-bong-san-pham-hover: 0 0 .95rem #5b90e57a;
+  --gx-vien-chan: #7381ba75;
+  --gx-nen-chan: linear-gradient(90deg, #04091be8, #0d132ce3 52%, #04091bea);
+  --gx-vien-chia-chan: #8f99b980;
+  --gx-vien-len-dau: #b7c5ea;
+  --gx-nen-len-dau: #0c1532;
+  --gx-vien-nut-menu: #7386b0;
+  --gx-vien-menu: #768ac4;
+  --gx-nen-menu: #0c1531;
+  --gx-bong-menu: 0 .7rem 2rem #010616b3;
+  --gx-phong: system-ui, sans-serif;
+  --gx-bo-the: 1rem;
+  --gx-bo-vien-thuoc: 100vmax;
+  --gx-bo-san-pham: .68rem;
+  --gx-le-dieu-huong: clamp(1rem, 2.7vw, 3.25rem);
+  --gx-cao-xp: .49rem;
+  --gx-chu-cap: #ffd675;
+  --gx-logo-sang: #bbf8ff;
+  --gx-logo-xanh: #4cafff;
+  --gx-logo-tim: #4743cc;
+  --gx-logo-toi: #151450;
+  --gx-vanh-logo-sang: #7ef2ff;
+  --gx-vanh-logo-xanh: #57baff;
+  --gx-vanh-logo-tim: #af90ff;
+  --gx-sao-logo: #d9fbff;
+  --gx-nen-truong: #0b1024;
+  --gx-vien-truong: #687cb7;
+  --gx-bo-truong: .55rem;
+  --gx-chu-goi-y: #a2b1cd;
+  --gx-nen-thong-tin: #172640;
+  --gx-vien-thong-tin: #3b5d7e;
+  --gx-chu-loi: #ffdae9;
+  --gx-vien-loi: #884e6c;
+  --gx-nen-loi: #382037;
+  --gx-chu-canh-bao: #ffc2a3;
+  --gx-nen-mo-hop-thoai: #040713c9;
+  --gx-nen-canh: #070b16;
+  --gx-nen-khung-xem: radial-gradient(ellipse, #25365c, #101726);
+  --gx-nen-anh-san-pham: radial-gradient(ellipse at 50% 57%, #2d4181 1%, #18274c 56%, #090e26 98%);
+  --gx-nen-bang-hover: #162143;
+  --gx-bong-chu-canh: 0 3px 20px #01050d;
+  --gx-bong-nhan-canh: 0 1px 3px #000, 0 0 10px #070b16;
+  --gx-bong-goi-y-canh: 0 1px 5px #000;
+  --gx-nen-day-canh: linear-gradient(transparent, #070c18eb);
+  --gx-quang-hanh-tinh: radial-gradient(circle at 27% 28%, #ffffff42, transparent 46%, #020616bd 81%);
+  --gx-vien-hanh-tinh: inset 0 0 0 1px #d5e3ff3b;
+  --gx-vien-vanh-hanh-tinh: #ecd4a8c2;
+  --gx-dia-he-mat-troi: radial-gradient(circle at 40% 43%, #fff4ce 9%, #ffb567 28%, #923f2b 40%, transparent 70%);
+  --gx-dia-thien-ha: radial-gradient(ellipse 71% 29% at center, #f8f6ff 6%, #b2bce4 23%, #665aa3 48%, transparent 85%);
+  --gx-dia-tinh-van: radial-gradient(ellipse at 35% 58%, #b6caff, #674fad 27%, transparent 67%),
+    radial-gradient(ellipse at 70% 42%, #8d64b4, transparent 60%);
+  --gx-dia-ho-den: radial-gradient(circle at center, #05070d 28%, #facc91 35%, #b04e34 48%, transparent 70%);
+  --gx-nen-quy-dao-tai-khoan: radial-gradient(circle at 27% 22%, #b2d5fc 0%, #788cf4 15%, #3a4b9a 38%, #202650 61%, #111429 76%);
+  --gx-vien-quy-dao-tai-khoan: #839ce984;
+  --gx-bong-quy-dao-tai-khoan: 0 0 1.1rem #829aeb33;
+  --gx-bong-hanh-tinh-tai-khoan: -.35rem -.5rem 3rem #92a0ff49, inset .14rem .08rem .22rem #d9e4ff7a;
+
+  /* Bề mặt của Đăng nhập, Tài khoản và giao diện ngoài canvas. */
+  --gx-dn-xanh: #81d6ff;
+  --gx-dn-vien: #869cff9c;
+  --gx-dn-quang: #5869ff82;
+  --gx-dn-phu-nen: linear-gradient(90deg, transparent 40%, #090a219e 78%, #06091f55);
+  --gx-dn-nen: #080d24;
+  --gx-dn-chu: #f0eaff;
+  --gx-dn-tieu-de: linear-gradient(109deg, #fff 8%, #e2dfff 51%, #ad88ff 72%, #56d4ff);
+  --gx-dn-quang-chu: drop-shadow(0 .12em .13em #4234b4b8);
+  --gx-dn-vien-thuong-hieu: #b9a6ff98;
+  --gx-dn-bong-thuong-hieu: 0 0 .22em #6655ff95, inset 0 0 .1em #8e8eff70;
+  --gx-dn-bong-figure: drop-shadow(0 1.1rem 1.4rem #080818ce)
+    drop-shadow(-.28rem -.16rem .55rem #848bff9c)
+    drop-shadow(.18rem -.16rem .65rem #c9a2ff9c);
+  --gx-dn-vien-quy-dao: #c9b6ffda;
+  --gx-dn-bong-quy-dao: 0 0 .8rem #5958ff, 0 0 1.65rem #935bfd9c, inset 0 0 .48rem #8b7bffab;
+  --gx-dn-bong-tia-sang: 0 0 .65rem .2rem #cfc1ff, 0 0 1.5rem .45rem #795afa;
+  --gx-dn-nen-the: radial-gradient(ellipse at 8% 0%, #6962ff4a, transparent 46%),
+    radial-gradient(ellipse at 105% 100%, #a453f74e, transparent 48%),
+    linear-gradient(138deg, #11163be8, #181842df 42%, #101d48e3);
+  --gx-dn-bong-the: inset 0 0 1.45rem #8a76ff47, 0 0 1.6rem #435bff79, 0 1.25rem 3.5rem #070a2bc2;
+  --gx-dn-quang-the: radial-gradient(ellipse at 0% 0%, #a47aff58, transparent 22%),
+    radial-gradient(ellipse at 100% 100%, #779dff69, transparent 25%);
+  --gx-dn-bong-mep-the: inset .1rem .11rem .4rem #e7d5ff60, inset -.1rem -.1rem .4rem #a9c6ff60;
+  --gx-dn-bong-logo: drop-shadow(0 0 .85rem #8671ffb3);
+  --gx-dn-chu-icon: #daceff;
+  --gx-dn-bong-icon: drop-shadow(0 0 .37rem #9d82ffb5);
+  --gx-dn-nen-truong: #191b47cc;
+  --gx-dn-chu-goi-y: #c0c7e5;
+  --gx-dn-chu-hien-mat-khau: #e1dbff;
+  --gx-dn-nen-nut: linear-gradient(108deg, #286bb3, #5048cf 57%, #884acc);
+  --gx-dn-vien-nut: #bbbeffba;
+  --gx-dn-bong-chu-nut: 0 1px .25rem #32145dbd;
+  --gx-dn-vat-lieu-nut: inset 0 .18rem .65rem #d8bcff8e;
+  --gx-dn-bong-hover: inset 0 .1rem .75rem #d8bcffad, 0 0 1.6rem #8a6fffb3;
+  --gx-dn-vien-mui-ten: #e8dbffa8;
+  --gx-dn-nen-mui-ten: #f1d9ff30;
+  --gx-dn-phu-nen-hep: linear-gradient(180deg, #080c2455, #080c24 31rem);
+  --gx-dn-nen-hep: #080c24;
+  --gx-tk-phu-minh-hoa: linear-gradient(180deg, #05091bd9, transparent 24%, transparent 76%, #05091bed);
+  --gx-tk-vien-quy-dao: #7cadffab;
+  --gx-tk-bong-quy-dao: 0 0 12px #698dff71, inset 0 0 9px #ad69ff44;
+  --gx-tk-vien-quy-dao-trong: #f6b2f6a6;
+  --gx-tk-vien-quy-dao-ngoai: #bf91ffab;
+  --gx-tk-bong-mat-troi: inset 0 0 1rem #ffdf86, 0 0 1rem #fff2ae, 0 0 3.5rem #ff9b3ec9, 0 0 6rem #ed537471;
+  --gx-tk-bong-trai-dat: 0 0 1.1rem #61ceffcf;
+  --gx-tk-bong-sao-hoa: 0 0 .8rem #ff916589;
+  --gx-tk-bong-sao-tho: 0 0 1.2rem #fcca8392;
+  --gx-tk-vien-sao-tho: #ffdea5cb;
+  --gx-tk-nen-sao: #f5ebff;
+  --gx-tk-bong-sao: 0 0 .6rem .2rem #ad9dff, 0 0 1.75rem .35rem #4777ff;
+  --gx-tk-phu-ho-so: linear-gradient(180deg, #05091a17, #05091a 38rem);
+  --gx-tk-vien-ho-so: #829aff88;
+  --gx-tk-nen-ho-so: linear-gradient(105deg, #080d26ed 5%, #0f163ccc 60%, #37287975);
+  --gx-tk-bong-ho-so: 0 0 2.3rem #617aff38, inset 0 1px #b0c9ff55;
+  --gx-tk-bong-chu-ho-so: 0 0 1.3rem #82a8ff8c;
+  --gx-tk-bong-bao-mat: 0 .55rem 1.75rem #02061668, inset 0 1px #a0baff42;
+  --gx-canh-nen-kinh: linear-gradient(135deg, #172951e8, #0a1028ed 52%, #261643e0);
+  --gx-canh-vien-kinh: #91a8ff83;
+  --gx-canh-bong-kinh: 0 0 1.4rem #6359ff42, inset 0 1px #bdd5ff36;
+  --gx-canh-nen-dau: linear-gradient(180deg, #05071aef, #090d25b8);
+  --gx-canh-vien-dau: #7485e04d;
+  --gx-canh-chu-chuyen-mau: linear-gradient(105deg, #fff 7%, #c4c8ff 53%, #75d9ff 98%);
+  --gx-canh-bong-tieu-de: drop-shadow(0 .2rem 1.1rem #7852ff86);
+  --gx-canh-chu-nhan: #c6d5ff;
+  --gx-canh-mat-na: radial-gradient(ellipse at 50% 51%, transparent 34%, #0002 60%, #000d 99%);
+  --gx-canh-bong-dang-chon: inset 0 0 .85rem #587cff55, 0 0 .65rem #7481ff55;
+  --gx-canh-vien-hinh: #94a8ff46;
+  --gx-canh-quang-hinh: radial-gradient(ellipse, #5266b983 0%, #1017335e 70%);
+  --gx-canh-nen-goi-y: #080d20ef;
+}
+
+/* Màu riêng của tranh minh họa và các khối trên Trang chủ. */
+.gx-trang-chu {
+  --gx-mat-na-tinh-van-trang: radial-gradient(ellipse at 68% 85%, #000 10%, transparent 71%);
+  --gx-mat-na-canh-hero: linear-gradient(#000 0 70%, #000d 84%, transparent 100%);
+  --gx-mat-na-tinh-van-hero: radial-gradient(ellipse at 48% 41%, #000 9%, #000d 29%, transparent 72%);
+  --gx-nen-trai-dat: #132459;
+  --gx-bong-trai-dat: 0 -3px 1px #7ee7ff, 0 -.3rem .65rem #4593ff, 0 -.55rem 1.75rem #37afffd2, 0 -1rem 3.85rem #3155ef80;
+  --gx-nen-quang-trai-dat: radial-gradient(ellipse at 60% -8%, #c8f7ffa3, #356fe146 34%, transparent 58%),
+    radial-gradient(ellipse at 58% 15%, transparent 21%, #07112e55 51%, #03091b 86%);
+  --gx-bong-quang-trai-dat: inset 0 3px 7px #c3f2ff, inset 0 -.5rem 2.6rem #03091d;
+  --gx-nen-mat-trang: #0a122e;
+  --gx-bong-mat-trang: 0 -2px 2px #81a4e2, 0 -.3rem .85rem #4c8aff80;
+  --gx-nen-quang-mat-trang: radial-gradient(ellipse at 43% -5%, #618fee2c, #070e2690 46%, #03091c 85%);
+  --gx-bong-quang-mat-trang: inset 0 2px 4px #c3deff85;
+  --gx-nen-da-khong-gian: radial-gradient(ellipse .4rem .3rem at 42% 61%, #090c21 49%, #47588b 69%, transparent 84%),
+    radial-gradient(ellipse .6rem .4rem at 35% 77%, #070b20 49%, #333e71 65%, transparent 87%),
+    linear-gradient(0deg, #060d23b3 3%, #070d263b 22%, transparent 38%);
+  --gx-nen-mat-da: radial-gradient(ellipse at 72% 13%, #94a7ef86, #15182a 40%, #020515db 82%);
+  --gx-vien-nhan-hero: #728dcc;
+  --gx-nen-nhan-hero: #111f3be8;
+  --gx-chu-nhan-hero: #d8edff;
+  --gx-mau-bieu-tuong-hero: #b0c3ff;
+  --gx-bong-bieu-tuong-hero: drop-shadow(0 0 .27rem #8f91ff);
+  --gx-bong-quy-dao: drop-shadow(0 0 .45rem #6a81eeb0);
+  --gx-bong-tieu-de-hero: drop-shadow(0 .06em .14em #020718c7);
+  --gx-nen-chu-thuong-hieu-hero: linear-gradient(178deg, #fff 29%, #ebf3ff 55%, #b6b8e5 98%);
+  --gx-bong-chu-tieu-de-hero: 0 .08em .22em #020719;
+  --gx-nen-chu-tieu-de-hero: linear-gradient(103deg, #a7e7ff 2%, #8acfff 55%, #bc9cf5);
+  --gx-chu-mo-ta-hero: #edf2ff;
+  --gx-bong-chu-mo-ta-hero: 0 1px .45rem #020514;
+  --gx-vien-the-khu: #7187bd;
+  --gx-vien-the-khu-hover: #a0e5ff;
+  --gx-bong-the-khu-hover: inset 0 0 1.2rem #758bdb35, 0 0 1.35rem #5d8cf064;
+  --gx-mat-na-anh-khu: linear-gradient(90deg, #000 50%, #000c 63%, transparent);
+  --gx-nen-anh-khu-he-mat-troi: radial-gradient(ellipse at 37% 28%, #456fe48a, transparent 67%);
+  --gx-vien-anh-khu-he-mat-troi: #95def6;
+  --gx-bong-anh-khu-he-mat-troi: sepia(.24) saturate(1.35) contrast(1.16) drop-shadow(0 0 .58rem #54b8ff);
+  --gx-nen-quang-anh-khu-he-mat-troi: radial-gradient(ellipse at 29% 24%, transparent 25%, #04132c59 58%, #04091cf2 88%);
+  --gx-vien-hanh-trinh: #7fbfee;
+  --gx-anh-nen-hanh-trinh: radial-gradient(ellipse at 8% 100%, #2e58bf95, transparent 31%),
+    radial-gradient(ellipse at 96% 11%, #33459375, transparent 48%);
+  --gx-nen-hanh-trinh: #0b142be8;
+  --gx-bong-bieu-tuong-tieu-de: drop-shadow(0 0 .5rem #3dbaff94);
+  --gx-vien-hinh-tham-hiem: #75d7ff;
+  --gx-chu-hinh-tham-hiem: #a2defc;
+  --gx-nen-hinh-tham-hiem: radial-gradient(circle at 48% 40%, #557dd979, #1a2e6b5e 48%, #080e2d 82%);
+  --gx-bong-hinh-tham-hiem: 0 0 1.15rem #367aeb72, inset 0 0 1.35rem #68baff42;
+  --gx-bong-bieu-tuong-tham-hiem: drop-shadow(0 0 .45rem #70acff);
+  --gx-nen-cap: #ffca55;
+  --gx-chu-so-cap: #21140a;
+  --gx-vien-chia-huy-hieu: #7483b26b;
+  --gx-mau-huy-hieu-xanh: #9fc8ff;
+  --gx-bong-huy-hieu: drop-shadow(0 0 .35rem #7b8ee6);
+  --gx-mau-huy-hieu-tim: #e0b2ff;
+  --gx-mau-bieu-tuong-anh-san-pham: #a9c1f0;
+  --gx-vien-them-gio: #70c7f9;
+  --gx-nen-them-gio: #10284a;
+  --gx-chu-them-gio: #a8e7ff;
+  --gx-vien-them-gio-hover: #d2f2ff;
+  --gx-nen-them-gio-hover: #203c6b;
+  --gx-nen-da-khong-gian-hep: linear-gradient(0deg, #060b2250, #060b2299 25%, #060b2224 70%);
+  --gx-quy-dao-tim: #bc74ff;
+  --gx-quy-dao-mo: #6a55ef;
+  --gx-quy-dao-cyan: #69e9ff;
+  --gx-sao-quy-dao: #b5fbff;
+  --gx-cham-quy-dao: #f4dcff;
+}

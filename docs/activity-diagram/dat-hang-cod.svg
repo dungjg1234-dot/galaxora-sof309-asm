@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1060" height="1415" viewBox="0 0 1060 1415" role="img" font-family="Arial, sans-serif"><title>Mua sản phẩm và đặt hàng COD</title><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M 0 0 L 7 4 L 0 8" fill="none" stroke="#000" stroke-width="1.2"/></marker></defs><rect x="0" y="0" width="1060" height="1415" fill="#fff"/><rect x="35" y="31" width="990" height="40" fill="#fff" stroke="#000"/>
+<text x="530" y="57" text-anchor="middle" font-size="21" font-weight="700">Mua sản phẩm và đặt hàng COD</text>
+<rect x="35" y="71" width="495" height="1316" fill="#fff" stroke="#000"/>
+<line x1="35" x2="530" y1="105" y2="105" stroke="#000"/>
+<text x="282.5" y="94" text-anchor="middle" font-size="17" font-weight="400">Người dùng</text>
+<rect x="530" y="71" width="495" height="1316" fill="#fff" stroke="#000"/>
+<line x1="530" x2="1025" y1="105" y2="105" stroke="#000"/>
+<text x="777.5" y="94" text-anchor="middle" font-size="17" font-weight="400">Hệ thống</text>
+<path d="M 270 150.5 L 270 175" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 355 198 L 639.75 198" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 402.625 284 L 664.5 284" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 760 312 L 760 364" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 760 394 L 760 441" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 775 379 L 986 379 L 986 555 L 845 555" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 675 555 L 394.375 555" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 270 578 L 270 617" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 270 637 L 270 665" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 386.125 693 L 615 693" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 760 721 L 760 777" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 760 807 L 760 855" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 745 792 L 541 792 L 541 816 L 386.125 816" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 270 844 L 270 902" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 285 917 L 560 917 L 560 950 L 643.875 950" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 760 978 L 760 1027" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 760 1057 L 760 1103" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 770 1218 L 770 1243" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 760 221 L 760 240 L 280 240" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 270 250 L 270 261" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 643.875 464 L 87 464 L 87 240 L 260 240" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 863.75 878 L 1020 878 L 1020 650 L 1005 650" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 859.625 1126 L 1031 1126 L 1031 690 L 1023.5 690 M 1016.5 690 L 995 690 L 995 660" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 985 650 L 520 650 L 520 627 L 280 627" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 745 1042 L 515 1042 L 515 1190 L 622.5 1190" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 255 917 L 91 917 L 91 1316 L 760 1316" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 770 1289 L 770 1306" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 770 1326 L 770 1353.5" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<circle cx="270" cy="142" r="8.5" fill="#000" stroke="#000" stroke-width="1.25"/>
+<rect x="185" y="175" width="170" height="46" rx="6" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<text x="270" y="203" text-anchor="middle" font-size="16" font-weight="400">Chọn sản phẩm</text>
+<rect x="639.75" y="175" width="240.5" height="46" rx="6" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<text x="760" y="203" text-anchor="middle" font-size="16" font-weight="400">Hiển thị chi tiết sản phẩm</text>
+<rect x="137.375" y="261" width="265.25" height="46" rx="6" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<text x="270" y="289" text-anchor="middle" font-size="16" font-weight="400">Chọn số lượng và thêm vào giỏ</text>
+<rect x="664.5" y="256" width="191" height="56" rx="6" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<text x="760" y="279.5" text-anchor="middle" font-size="16" font-weight="400">Kiểm tra quyền mua,</text>
+<text x="760" y="298.5" text-anchor="middle" font-size="16" font-weight="400">sản phẩm và số lượng</text>
+<polygon points="760,364 775,379 760,394 745,379" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<text x="655" y="406" text-anchor="middle" font-size="14" font-weight="700">Thêm vào giỏ được?</text>
+<rect x="643.875" y="441" width="232.25" height="46" rx="6" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<text x="760" y="469" text-anchor="middle" font-size="16" font-weight="400">Hiển thị lỗi thêm vào giỏ</text>
+<rect x="675" y="532" width="170" height="46" rx="6" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<text x="760" y="560" text-anchor="middle" font-size="16" font-weight="400">Cập nhật giỏ hàng</text>
+<rect x="145.625" y="532" width="248.75" height="46" rx="6" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<text x="270" y="560" text-anchor="middle" font-size="16" font-weight="400">Mở giỏ và kiểm tra sản phẩm</text>
+<polygon points="270,617 280,627 270,637 260,627" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<rect x="153.875" y="665" width="232.25" height="56" rx="6" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<text x="270" y="688.5" text-anchor="middle" font-size="16" font-weight="400">Nhập mã voucher nếu có</text>
+<text x="270" y="707.5" text-anchor="middle" font-size="16" font-weight="400">và yêu cầu tính tổng tiền</text>
+<rect x="615" y="665" width="290" height="56" rx="6" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<text x="760" y="688.5" text-anchor="middle" font-size="16" font-weight="400">Kiểm tra giỏ và voucher,</text>
+<text x="760" y="707.5" text-anchor="middle" font-size="16" font-weight="400">tính tổng tiền gồm phí giao hàng</text>
+<polygon points="760,777 775,792 760,807 745,792" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<text x="873" y="814" text-anchor="middle" font-size="14" font-weight="700">Có báo giá hợp lệ?</text>
+<rect x="656.25" y="855" width="207.5" height="46" rx="6" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<text x="760" y="883" text-anchor="middle" font-size="16" font-weight="400">Hiển thị lỗi tính tiền</text>
+<rect x="153.875" y="788" width="232.25" height="56" rx="6" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<text x="270" y="811.5" text-anchor="middle" font-size="16" font-weight="400">Nhập thông tin giao hàng,</text>
+<text x="270" y="830.5" text-anchor="middle" font-size="16" font-weight="400">kiểm tra tổng tiền COD</text>
+<polygon points="270,902 285,917 270,932 255,917" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<text x="168" y="952" text-anchor="middle" font-size="14" font-weight="700">Xác nhận đặt hàng?</text>
+<rect x="643.875" y="922" width="232.25" height="56" rx="6" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<text x="760" y="945.5" text-anchor="middle" font-size="16" font-weight="400">Kiểm tra lại giỏ, voucher</text>
+<text x="760" y="964.5" text-anchor="middle" font-size="16" font-weight="400">và tổng tiền đã xác nhận</text>
+<polygon points="760,1027 775,1042 760,1057 745,1042" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<text x="874" y="1062" text-anchor="middle" font-size="14" font-weight="700">Đơn hợp lệ?</text>
+<rect x="660.375" y="1103" width="199.25" height="46" rx="6" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<text x="760" y="1131" text-anchor="middle" font-size="16" font-weight="400">Hiển thị lỗi đặt hàng</text>
+<rect x="622.5" y="1162" width="295" height="56" rx="6" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<text x="770" y="1185.5" text-anchor="middle" font-size="16" font-weight="400">Tạo đơn chờ xác nhận,</text>
+<text x="770" y="1204.5" text-anchor="middle" font-size="16" font-weight="400">ghi nhận voucher nếu có và dọn giỏ</text>
+<rect x="653.875" y="1243" width="232.25" height="46" rx="6" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<text x="770" y="1271" text-anchor="middle" font-size="16" font-weight="400">Hiển thị chi tiết đơn COD</text>
+<circle cx="770" cy="1365" r="11.5" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<circle cx="770" cy="1365" r="6.5" fill="#000"/>
+<polygon points="270,230 280,240 270,250 260,240" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<polygon points="995,640 1005,650 995,660 985,650" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<polygon points="770,1306 780,1316 770,1326 760,1316" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<rect x="776.85" y="416" width="60.300000000000004" height="17" fill="#fff"/>
+<text x="807" y="428" text-anchor="middle" font-size="14" font-weight="400">[Không]</text>
+<rect x="917.2" y="355" width="39.6" height="17" fill="#fff"/>
+<text x="937" y="367" text-anchor="middle" font-size="14" font-weight="400">[Có]</text>
+<rect x="776.85" y="828" width="60.300000000000004" height="17" fill="#fff"/>
+<text x="807" y="840" text-anchor="middle" font-size="14" font-weight="400">[Không]</text>
+<rect x="582.2" y="768" width="39.6" height="17" fill="#fff"/>
+<text x="602" y="780" text-anchor="middle" font-size="14" font-weight="400">[Có]</text>
+<rect x="397.5" y="893" width="81" height="17" fill="#fff"/>
+<text x="438" y="905" text-anchor="middle" font-size="14" font-weight="400">[Xác nhận]</text>
+<rect x="776.85" y="1077" width="60.300000000000004" height="17" fill="#fff"/>
+<text x="807" y="1089" text-anchor="middle" font-size="14" font-weight="400">[Không]</text>
+<rect x="581.2" y="1018" width="39.6" height="17" fill="#fff"/>
+<text x="601" y="1030" text-anchor="middle" font-size="14" font-weight="400">[Có]</text>
+<rect x="137.75" y="893" width="46.5" height="17" fill="#fff"/>
+<text x="161" y="905" text-anchor="middle" font-size="14" font-weight="400">[Hủy]</text>
+<text x="530" y="1405" text-anchor="middle" font-size="13" font-weight="400">GH-01–GH-06 · VC-03</text></svg>

@@ -1,0 +1,33 @@
+# Cấu hình chung. Giá trị phụ thuộc môi trường đọc từ biến môi trường, không ghi cứng secret vào Git.
+spring:
+  servlet:
+    multipart:
+      max-file-size: 8MB
+      max-request-size: 9MB
+  application:
+    name: galaxora-backend
+  datasource:
+    hikari:
+      connection-init-sql: "SET time_zone = '+00:00'"
+    url: ${GALAXORA_DB_URL:jdbc:mysql://localhost:3306/galaxora?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Ho_Chi_Minh}
+    username: ${GALAXORA_DB_USER:root}
+    password: ${GALAXORA_DB_PASSWORD}
+  jpa:
+    open-in-view: false
+    hibernate:
+      # Schema do Flyway quản lý, Hibernate không tự tạo/sửa bảng.
+      ddl-auto: none
+  flyway:
+    enabled: true
+    # Theo AGENTS.md mục 8: migration nằm ở database/migrations (chạy backend từ thư mục backend/).
+    locations: filesystem:../database/migrations
+server:
+  port: 8080
+  servlet:
+    session:
+      timeout: 30m
+      cookie:
+        http-only: true
+        same-site: lax
+        secure: ${GALAXORA_COOKIE_SECURE:false}
+

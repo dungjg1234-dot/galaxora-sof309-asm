@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="1380" viewBox="0 0 1120 1380" role="img" font-family="Arial, sans-serif"><title>Khám phá Hệ Mặt Trời và nhận thưởng hành trình</title><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M 0 0 L 7 4 L 0 8" fill="none" stroke="#000" stroke-width="1.2"/></marker></defs><rect x="0" y="0" width="1120" height="1380" fill="#fff"/><rect x="35" y="31" width="1050" height="40" fill="#fff" stroke="#000"/>
+<text x="560" y="57" text-anchor="middle" font-size="21" font-weight="700">Khám phá Hệ Mặt Trời và nhận thưởng hành trình</text>
+<rect x="35" y="71" width="525" height="1281" fill="#fff" stroke="#000"/>
+<line x1="35" x2="560" y1="105" y2="105" stroke="#000"/>
+<text x="297.5" y="94" text-anchor="middle" font-size="17" font-weight="400">Người dùng</text>
+<rect x="560" y="71" width="525" height="1281" fill="#fff" stroke="#000"/>
+<line x1="560" x2="1085" y1="105" y2="105" stroke="#000"/>
+<text x="822.5" y="94" text-anchor="middle" font-size="17" font-weight="400">Hệ thống</text>
+<path d="M 290 150.5 L 290 204" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 290 224 L 290 249" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 412.5 277 L 650 277" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 780 305 L 780 359" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 795 374 L 1002 374 L 1002 554 L 920.875 554" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 780 743 L 780 787" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 780 843 L 780 892" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 780 922 L 780 981" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 780 1001 L 780 1042" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 780 1072 L 780 1112" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 795 1057 L 1010 1057 L 1010 1226 L 883.75 1226" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 676.25 1226 L 305 1226" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 290 1211 L 290 1101" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 418.5 1073 L 590 1073 L 590 991 L 770 991" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 780 582 L 780 623" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 780 679 L 780 713" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 780 389 L 780 442" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 695 465 L 516 465 L 516 512 L 300 512" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 765 728 L 489 728 L 489 521 L 357 521 L 357 512 L 300 512" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 290 522 L 290 733" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 275 748 L 100 748 L 100 214 L 280 214" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 290 763 L 290 830 L 106 830 L 106 1285 L 280 1285" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 290 1241 L 290 1275" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 290 1295 L 290 1312.5" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 795 907 L 1072 907 L 1072 1259 L 940 1259" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 780 1168 L 780 1175 L 930 1175 L 930 1222.5 M 930 1229.5 L 930 1249" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 930 1269 L 930 1285 L 300 1285" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<circle cx="290" cy="142" r="8.5" fill="#000" stroke="#000" stroke-width="1.25"/>
+<polygon points="290,204 300,214 290,224 280,214" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<rect x="167.5" y="249" width="245" height="56" rx="6" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<text x="290" y="272.5" text-anchor="middle" font-size="16" font-weight="400">Chọn thiên thể và</text>
+<text x="290" y="291.5" text-anchor="middle" font-size="16" font-weight="400">mở bảng thông tin</text>
+<rect x="650" y="249" width="260" height="56" rx="6" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<text x="780" y="272.5" text-anchor="middle" font-size="16" font-weight="400">Hiển thị bảng thông tin</text>
+<text x="780" y="291.5" text-anchor="middle" font-size="16" font-weight="400">ở chế độ 3D hoặc 2D</text>
+<polygon points="780,359 795,374 780,389 765,374" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<text x="945" y="409" text-anchor="middle" font-size="14" font-weight="700">Có phiên USER và thiên thể hợp lệ?</text>
+<rect x="639.125" y="526" width="281.75" height="56" rx="6" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<text x="780" y="549.5" text-anchor="middle" font-size="16" font-weight="400">Ghi lượt khám phá và cộng 10 XP</text>
+<text x="780" y="568.5" text-anchor="middle" font-size="16" font-weight="400">một lần cho mỗi thiên thể</text>
+<polygon points="780,713 795,728 780,743 765,728" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<text x="905" y="749" text-anchor="middle" font-size="14" font-weight="700">Đã khám phá đủ 10 thiên thể?</text>
+<rect x="639.125" y="787" width="281.75" height="56" rx="6" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<text x="780" y="810.5" text-anchor="middle" font-size="16" font-weight="400">Cấp hai huy hiệu và cộng 100 XP</text>
+<text x="780" y="829.5" text-anchor="middle" font-size="16" font-weight="400">hành trình một lần</text>
+<polygon points="780,892 795,907 780,922 765,907" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<text x="904" y="928" text-anchor="middle" font-size="14" font-weight="700">Voucher đã được cấp?</text>
+<polygon points="780,981 790,991 780,1001 770,991" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<polygon points="780,1042 795,1057 780,1072 765,1057" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<text x="886" y="1080" text-anchor="middle" font-size="14" font-weight="700">Có lượt cấp hợp lệ?</text>
+<rect x="655" y="1112" width="250" height="56" rx="6" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<text x="780" y="1135.5" text-anchor="middle" font-size="16" font-weight="400">Cấp voucher cá nhân</text>
+<text x="780" y="1154.5" text-anchor="middle" font-size="16" font-weight="400">và lưu lịch sử</text>
+<rect x="676.25" y="1203" width="207.5" height="46" rx="6" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<text x="780" y="1231" text-anchor="middle" font-size="16" font-weight="400">Giữ quyền nhận voucher</text>
+<polygon points="290,1211 305,1226 290,1241 275,1226" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<text x="203" y="1201" text-anchor="middle" font-size="14" font-weight="700">Thử nhận lại?</text>
+<rect x="161.5" y="1045" width="257" height="56" rx="6" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<text x="290" y="1068.5" text-anchor="middle" font-size="16" font-weight="400">Chọn Nhận voucher hành trình</text>
+<text x="290" y="1087.5" text-anchor="middle" font-size="16" font-weight="400">khi muốn thử lại</text>
+<circle cx="290" cy="1324" r="11.5" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<circle cx="290" cy="1324" r="6.5" fill="#000"/>
+<rect x="643.25" y="623" width="273.5" height="56" rx="6" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<text x="780" y="646.5" text-anchor="middle" font-size="16" font-weight="400">Cập nhật tiến độ ba chương,</text>
+<text x="780" y="665.5" text-anchor="middle" font-size="16" font-weight="400">mở chương sau khi đủ điều kiện</text>
+<polygon points="290,733 305,748 290,763 275,748" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<text x="290" y="709" text-anchor="middle" font-size="14" font-weight="700">Tiếp tục khám phá?</text>
+<polygon points="290,502 300,512 290,522 280,512" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<polygon points="290,1275 300,1285 290,1295 280,1285" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<rect x="695" y="442" width="170" height="46" rx="6" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<text x="780" y="470" text-anchor="middle" font-size="16" font-weight="400">Chỉ xem thông tin</text>
+<polygon points="930,1249 940,1259 930,1269 920,1259" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<rect x="917.2" y="350" width="39.6" height="17" fill="#fff"/>
+<text x="937" y="362" text-anchor="middle" font-size="14" font-weight="400">[Có]</text>
+<rect x="796.2" y="758" width="39.6" height="17" fill="#fff"/>
+<text x="816" y="770" text-anchor="middle" font-size="14" font-weight="400">[Đủ]</text>
+<rect x="799.3" y="937" width="53.400000000000006" height="17" fill="#fff"/>
+<text x="826" y="949" text-anchor="middle" font-size="14" font-weight="400">[Chưa]</text>
+<rect x="801.2" y="1090" width="39.6" height="17" fill="#fff"/>
+<text x="821" y="1102" text-anchor="middle" font-size="14" font-weight="400">[Có]</text>
+<rect x="927.85" y="1033" width="60.300000000000004" height="17" fill="#fff"/>
+<text x="958" y="1045" text-anchor="middle" font-size="14" font-weight="400">[Không]</text>
+<rect x="302.2" y="1153" width="39.6" height="17" fill="#fff"/>
+<text x="322" y="1165" text-anchor="middle" font-size="14" font-weight="400">[Có]</text>
+<rect x="796.85" y="418" width="60.300000000000004" height="17" fill="#fff"/>
+<text x="827" y="430" text-anchor="middle" font-size="14" font-weight="400">[Không]</text>
+<rect x="588.95" y="705" width="74.1" height="17" fill="#fff"/>
+<text x="626" y="717" text-anchor="middle" font-size="14" font-weight="400">[Chưa đủ]</text>
+<rect x="147.2" y="723" width="39.6" height="17" fill="#fff"/>
+<text x="167" y="735" text-anchor="middle" font-size="14" font-weight="400">[Có]</text>
+<rect x="302.85" y="790" width="60.300000000000004" height="17" fill="#fff"/>
+<text x="333" y="802" text-anchor="middle" font-size="14" font-weight="400">[Không]</text>
+<rect x="305.25" y="1245" width="115.5" height="17" fill="#fff"/>
+<text x="363" y="1257" text-anchor="middle" font-size="14" font-weight="400">[Chưa nhận lại]</text>
+<rect x="955.2" y="882" width="39.6" height="17" fill="#fff"/>
+<text x="975" y="894" text-anchor="middle" font-size="14" font-weight="400">[Có]</text>
+<text x="560" y="1370" text-anchor="middle" font-size="13" font-weight="400">GM-01, GM-04 · 8 hành tinh, Mặt Trăng và Pluto</text></svg>

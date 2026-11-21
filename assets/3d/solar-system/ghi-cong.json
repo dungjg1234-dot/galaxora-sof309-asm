@@ -1,0 +1,68 @@
+{
+  "sun": {
+    "author": "SebastianSosnowski (https://sketchfab.com/SebastianSosnowski)",
+    "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+    "source": "https://sketchfab.com/3d-models/sun-9ef1c68fbb944147bcfcc891d3912645",
+    "title": "Sun"
+  },
+  "mercury": {
+    "author": "SebastianSosnowski (https://sketchfab.com/SebastianSosnowski)",
+    "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+    "source": "https://sketchfab.com/3d-models/mercury-planet-ccb6c6a9ac3742109cc67c0f16032b49",
+    "title": "Mercury (planet)"
+  },
+  "venus": {
+    "author": "Akshat (https://sketchfab.com/shooter24994)",
+    "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+    "source": "https://sketchfab.com/3d-models/venus-d497ce25553447f3b7b679110c85cfa1",
+    "title": "Venus"
+  },
+  "earth": {
+    "author": "Stéphane Agullo (https://sketchfab.com/sa3d)",
+    "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+    "source": "https://sketchfab.com/3d-models/earth-5ce4b1465c83432d9bb7e3c30232c02b",
+    "title": "EARTH"
+  },
+  "moon": {
+    "author": "Akshat (https://sketchfab.com/shooter24994)",
+    "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+    "source": "https://sketchfab.com/3d-models/moon-4db2273f6dd943b8ad7fa5e3b1b2431a",
+    "title": "Moon"
+  },
+  "mars": {
+    "author": "AirStudios (https://sketchfab.com/sebbe613)",
+    "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+    "source": "https://sketchfab.com/3d-models/mars-5fc8b7168b044527a05ed3903c998b65",
+    "title": "Mars"
+  },
+  "jupiter": {
+    "author": "Nestaeric (https://sketchfab.com/Nestaeric)",
+    "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+    "source": "https://sketchfab.com/3d-models/jupiter-6380860bdb4247b98b30643615c3afab",
+    "title": "Jupiter"
+  },
+  "saturn": {
+    "author": "Nestaeric (https://sketchfab.com/Nestaeric)",
+    "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+    "source": "https://sketchfab.com/3d-models/saturn-c09a1970148c43ad99db134a9d6d00b5",
+    "title": "Saturn"
+  },
+  "uranus": {
+    "author": "NestaEric (https://sketchfab.com/Nestaeric)",
+    "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+    "source": "https://sketchfab.com/3d-models/uranus-0009a69dbace44608c0bd09af9ba20db",
+    "title": "Uranus"
+  },
+  "neptune": {
+    "author": "Nestaeric (https://sketchfab.com/Nestaeric)",
+    "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+    "source": "https://sketchfab.com/3d-models/neptune-2a6f9ccc5c724a709912774caa197b77",
+    "title": "Neptune"
+  },
+  "pluto": {
+    "author": "Akshat (https://sketchfab.com/shooter24994)",
+    "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+    "source": "https://sketchfab.com/3d-models/pluto-a30ff3a5f4f3477d87fc534e0d1df7e2",
+    "title": "Pluto"
+  }
+}

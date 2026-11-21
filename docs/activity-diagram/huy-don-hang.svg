@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1450" height="1375" viewBox="0 0 1450 1375" role="img" font-family="Arial, sans-serif"><title>Hủy đơn hàng</title><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M 0 0 L 7 4 L 0 8" fill="none" stroke="#000" stroke-width="1.2"/></marker></defs><rect x="0" y="0" width="1450" height="1375" fill="#fff"/><rect x="35" y="31" width="1380" height="40" fill="#fff" stroke="#000"/>
+<text x="725" y="57" text-anchor="middle" font-size="21" font-weight="700">Hủy đơn hàng</text>
+<rect x="35" y="71" width="460" height="1276" fill="#fff" stroke="#000"/>
+<line x1="35" x2="495" y1="105" y2="105" stroke="#000"/>
+<text x="265" y="94" text-anchor="middle" font-size="17" font-weight="400">Người dùng</text>
+<rect x="495" y="71" width="460" height="1276" fill="#fff" stroke="#000"/>
+<line x1="495" x2="955" y1="105" y2="105" stroke="#000"/>
+<text x="725" y="94" text-anchor="middle" font-size="17" font-weight="400">Hệ thống</text>
+<rect x="955" y="71" width="460" height="1276" fill="#fff" stroke="#000"/>
+<line x1="955" x2="1415" y1="105" y2="105" stroke="#000"/>
+<text x="1185" y="94" text-anchor="middle" font-size="17" font-weight="400">Admin</text>
+<path d="M 260 146.5 L 260 167" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 345 190 L 626.875 190" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 743 218 L 743 267" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 728 282 L 390.375 282" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 299 305 L 299 373 L 614.5 373" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 743 297 L 743 331 L 302.5 331 M 295.5 331 L 128 331 L 128 430 L 240 430 L 240 453" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 758 282 L 892 282 L 892 388" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 372.625 476 L 728 476" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 758 476 L 892 476 L 892 408" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 902 398 L 951 398 L 951 516 L 858 516 L 858 532" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 743 491 L 743 663" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 855 691 L 1110 691" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 1195 714 L 1195 748" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 1083 776 L 758 776" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 743 791 L 743 852" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 728 776 L 565 776 L 565 950 L 840 950 L 840 951" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 825 966 L 613 966 L 613 982" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 855 966 L 1035 966 L 1035 1068 L 946.5 1068" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 614.5 373 L 499 373 L 499 472.5 M 499 479.5 L 499 1160 L 733 1160" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 613 1038 L 613 1124 L 743 1124 L 743 1150" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 850 1096 L 850 1160 L 753 1160" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 743 1170 L 743 1190" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 858 588 L 858 612 L 976 612 L 976 687.5 M 976 694.5 L 976 772.5 M 976 779.5 L 976 962.5 M 976 969.5 L 976 1064.5 M 976 1071.5 L 976 1278 L 753 1278" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 598 875 L 568.5 875 M 561.5 875 L 502.5 875 M 495.5 875 L 469 875 L 469 1278 L 733 1278" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 743 1236 L 743 1268" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 743 1288 L 743 1315.5" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<circle cx="260" cy="138" r="8.5" fill="#000" stroke="#000" stroke-width="1.25"/>
+<rect x="175" y="167" width="170" height="46" rx="6" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<text x="260" y="195" text-anchor="middle" font-size="16" font-weight="400">Chọn đơn cần hủy</text>
+<rect x="626.875" y="162" width="232.25" height="56" rx="6" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<text x="743" y="185.5" text-anchor="middle" font-size="16" font-weight="400">Kiểm tra quyền sở hữu đơn</text>
+<text x="743" y="204.5" text-anchor="middle" font-size="16" font-weight="400">và đọc trạng thái</text>
+<polygon points="743,267 758,282 743,297 728,282" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<text x="847" y="256" text-anchor="middle" font-size="14" font-weight="700">Trạng thái đơn?</text>
+<rect x="207.625" y="259" width="182.75" height="46" rx="6" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<text x="299" y="287" text-anchor="middle" font-size="16" font-weight="400">Xác nhận tự hủy đơn</text>
+<rect x="614.5" y="345" width="257" height="56" rx="6" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<text x="743" y="368.5" text-anchor="middle" font-size="16" font-weight="400">Hủy đơn khi còn chờ xác nhận</text>
+<text x="743" y="387.5" text-anchor="middle" font-size="16" font-weight="400">và ghi lịch sử</text>
+<rect x="107.375" y="453" width="265.25" height="46" rx="6" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<text x="240" y="481" text-anchor="middle" font-size="16" font-weight="400">Nhập lý do và gửi yêu cầu hủy</text>
+<polygon points="743,461 758,476 743,491 728,476" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<text x="841" y="505" text-anchor="middle" font-size="14" font-weight="700">Gửi được yêu cầu?</text>
+<polygon points="892,388 902,398 892,408 882,398" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<rect x="773" y="532" width="170" height="56" rx="6" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<text x="858" y="555.5" text-anchor="middle" font-size="16" font-weight="400">Báo không thể hủy</text>
+<text x="858" y="574.5" text-anchor="middle" font-size="16" font-weight="400">hoặc đã có yêu cầu chờ</text>
+<rect x="631" y="663" width="224" height="56" rx="6" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<text x="743" y="686.5" text-anchor="middle" font-size="16" font-weight="400">Lưu yêu cầu chờ duyệt,</text>
+<text x="743" y="705.5" text-anchor="middle" font-size="16" font-weight="400">tiếp tục giữ nguyên hàng</text>
+<rect x="1110" y="668" width="170" height="46" rx="6" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<text x="1195" y="696" text-anchor="middle" font-size="16" font-weight="400">Mở yêu cầu hủy</text>
+<rect x="1083" y="748" width="224" height="56" rx="6" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<text x="1195" y="771.5" text-anchor="middle" font-size="16" font-weight="400">Chọn duyệt hoặc từ chối,</text>
+<text x="1195" y="790.5" text-anchor="middle" font-size="16" font-weight="400">nhập lý do xử lý</text>
+<polygon points="743,761 758,776 743,791 728,776" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<text x="823" y="803" text-anchor="middle" font-size="14" font-weight="700">Còn xử lý được?</text>
+<rect x="598" y="852" width="290" height="46" rx="6" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<text x="743" y="880" text-anchor="middle" font-size="16" font-weight="400">Báo yêu cầu không còn xử lý được</text>
+<polygon points="840,951 855,966 840,981 825,966" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<text x="840" y="930" text-anchor="middle" font-size="14" font-weight="700">Quyết định đã chọn?</text>
+<rect x="516" y="982" width="194" height="56" rx="6" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<text x="613" y="1005.5" text-anchor="middle" font-size="16" font-weight="400">Duyệt yêu cầu, hủy đơn</text>
+<text x="613" y="1024.5" text-anchor="middle" font-size="16" font-weight="400">và giải phóng hàng</text>
+<rect x="753.5" y="1040" width="193" height="56" rx="6" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<text x="850" y="1063.5" text-anchor="middle" font-size="16" font-weight="400">Ghi từ chối yêu cầu,</text>
+<text x="850" y="1082.5" text-anchor="middle" font-size="16" font-weight="400">đơn hàng tiếp tục</text>
+<polygon points="743,1150 753,1160 743,1170 733,1160" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<rect x="589.75" y="1190" width="306.5" height="46" rx="6" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<text x="743" y="1218" text-anchor="middle" font-size="16" font-weight="400">Hiển thị kết quả trên chi tiết đơn</text>
+<circle cx="743" cy="1327" r="11.5" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<circle cx="743" cy="1327" r="6.5" fill="#000"/>
+<polygon points="743,1268 753,1278 743,1288 733,1278" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<rect x="448.7" y="255" width="108.60000000000001" height="17" fill="#fff"/>
+<text x="503" y="267" text-anchor="middle" font-size="14" font-weight="400">[Chờ xác nhận]</text>
+<rect x="384.6" y="307" width="232.8" height="17" fill="#fff"/>
+<text x="501" y="319" text-anchor="middle" font-size="14" font-weight="400">[Đã xác nhận hoặc đang chuẩn bị]</text>
+<rect x="837.3" y="257" width="53.400000000000006" height="17" fill="#fff"/>
+<text x="864" y="269" text-anchor="middle" font-size="14" font-weight="400">[Khác]</text>
+<rect x="835.85" y="452" width="60.300000000000004" height="17" fill="#fff"/>
+<text x="866" y="464" text-anchor="middle" font-size="14" font-weight="400">[Không]</text>
+<rect x="749.2" y="534" width="39.6" height="17" fill="#fff"/>
+<text x="769" y="546" text-anchor="middle" font-size="14" font-weight="400">[Có]</text>
+<rect x="754.85" y="821" width="60.300000000000004" height="17" fill="#fff"/>
+<text x="785" y="833" text-anchor="middle" font-size="14" font-weight="400">[Không]</text>
+<rect x="616.2" y="752" width="39.6" height="17" fill="#fff"/>
+<text x="636" y="764" text-anchor="middle" font-size="14" font-weight="400">[Có]</text>
+<rect x="651.85" y="942" width="60.300000000000004" height="17" fill="#fff"/>
+<text x="682" y="954" text-anchor="middle" font-size="14" font-weight="400">[Duyệt]</text>
+<rect x="959.95" y="941" width="74.1" height="17" fill="#fff"/>
+<text x="997" y="953" text-anchor="middle" font-size="14" font-weight="400">[Từ chối]</text>
+<text x="725" y="1365" text-anchor="middle" font-size="13" font-weight="400">GH-07–GH-09</text></svg>

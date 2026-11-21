@@ -1,0 +1,227 @@
+.gx-vu-tru {
+  position: absolute;
+  z-index: -2;
+  inset: 0;
+  pointer-events: none;
+  overflow: clip;
+  background: var(--gx-nen-vignette);
+}
+
+.gx-vu-tru::before, .gx-vu-tru::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.gx-vu-tru::before {
+  inset: -6% -5% auto;
+  height: min(110%, 76rem);
+  background: var(--gx-nen-tinh-van);
+  opacity: .82;
+}
+
+.gx-vu-tru::after {
+  background: var(--gx-nen-sao-gan);
+  background-size: 223px 211px, 173px 161px, 119px 167px;
+  opacity: .56;
+}
+
+.gx-khung-quan-tri .gx-vu-tru { opacity: .34; }
+.gx-khung-quan-tri .gx-vu-tru::after { display: none; }
+.gx-khung-quan-tri .bh-khoi { background: var(--gx-mat-the-gon); }
+
+.gx-bieu-tuong-mau { filter: var(--gx-icon-bong); }
+.gx-khung-quan-tri .gx-bieu-tuong-mau, .kp .gx-bieu-tuong-mau { filter: none; }
+.gx-khung-trang:not(.kp, .gx-khung-quan-tri) :is(.bh-khoi, .bh-loc, .bh-trong, .gx-tien-ich-noi-dung, .tk-bao-mat) {
+  border-color: transparent;
+  background: var(--gx-mat-the) padding-box, var(--gx-vien-pho) border-box;
+}
+
+.gx-khung-trang:not(.kp, .gx-khung-quan-tri) :is(.bh-khoi, .gx-tien-ich-noi-dung, .tk-bao-mat) {
+  position: relative;
+  isolation: isolate;
+  overflow: clip;
+}
+
+.gx-khung-trang:not(.kp, .gx-khung-quan-tri) :is(.bh-khoi, .gx-tien-ich-noi-dung, .tk-bao-mat)::before,
+.gx-khung-trang:not(.kp, .gx-khung-quan-tri) :is(.bh-khoi, .gx-tien-ich-noi-dung, .tk-bao-mat)::after {
+  content: '';
+  position: absolute;
+  pointer-events: none;
+}
+
+.gx-khung-trang:not(.kp, .gx-khung-quan-tri) :is(.bh-khoi, .gx-tien-ich-noi-dung, .tk-bao-mat)::before {
+  z-index: -2;
+  inset: -50%;
+  background: var(--gx-vien-quay);
+  opacity: 0;
+}
+
+.gx-khung-trang:not(.kp, .gx-khung-quan-tri) :is(.bh-khoi, .gx-tien-ich-noi-dung, .tk-bao-mat)::after {
+  z-index: -1;
+  inset: 1px;
+  border-radius: inherit;
+  background: var(--gx-mat-the);
+}
+
+.gx-khung-trang:not(.kp) :is(.bh h1, .tai-khoan-noi-dung h1, .tk-ho-so-dau h1, .tk-dang-nhap-the h1, .gx-tien-ich h1) {
+  overflow-wrap: anywhere;
+  text-shadow: none;
+}
+
+@supports (background-clip: text) {
+  .gx-khung-trang:not(.kp) :is(.bh h1, .tai-khoan-noi-dung h1, .tk-ho-so-dau h1, .tk-dang-nhap-the h1, .gx-tien-ich h1) {
+    color: transparent;
+    padding-block: .045em .075em;
+    background: var(--gx-tieu-de-chuyen-mau);
+    background-clip: text;
+    filter: var(--gx-tieu-de-bong);
+  }
+}
+
+.gx-khung-quan-tri .bh h1 { filter: none; }
+
+.gx-tieu-de-khung { isolation: isolate; }
+.gx-tieu-de-khung::after {
+  content: '';
+  position: absolute;
+  inset: 0 auto 0 0;
+  z-index: -1;
+  width: 70%;
+  background: var(--gx-tieu-de-quang);
+  pointer-events: none;
+}
+
+.gx-khung-trang:not(.kp, .gx-khung-quan-tri) :is(.gx-nut, .bh button, .bh-nut, .tai-khoan-nut, .gx-len-dau, .gx-khu, .gx-the-san-pham, .bh-the-sp) {
+  position: relative;
+  isolation: isolate;
+}
+
+.gx-khung-trang:not(.kp, .gx-khung-quan-tri) :is(.gx-nut, .bh button, .bh-nut, .tai-khoan-nut, .gx-khu, .gx-the-san-pham, .bh-the-sp)::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  inset: 2px auto 2px 5%;
+  width: 32%;
+  border-radius: inherit;
+  background: var(--gx-vet-sang);
+  pointer-events: none;
+  opacity: 0;
+}
+
+.gx-khung-trang:not(.kp, .gx-khung-quan-tri) :is(.gx-nut-chinh, .bh-chinh, .tai-khoan-nut)::after {
+  background: var(--gx-vet-sang-nut);
+}
+
+.gx-khung-trang .tk-dang-nhap .tai-khoan-nut::after { background: var(--gx-vet-sang-dang-nhap); }
+
+.gx-khung-trang:not(.kp, .gx-khung-quan-tri) :is(.gx-nut-chinh, .bh-chinh, .tai-khoan-nut, .gx-len-dau, .gx-them-gio)::before {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  pointer-events: none;
+}
+
+.gx-khung-trang:not(.kp, .gx-khung-quan-tri) :is(.gx-nut-chinh, .bh-chinh, .tai-khoan-nut)::before {
+  box-shadow: var(--gx-quang-nut);
+  opacity: .3;
+}
+
+.gx-khung-trang:not(.kp, .gx-khung-quan-tri) :is(.gx-len-dau, .gx-them-gio)::before {
+  background: var(--gx-vien-quay);
+  mask-image: radial-gradient(circle closest-side, transparent calc(100% - 3px), currentColor calc(100% - 2px));
+  opacity: .85;
+}
+
+.gx-khung-trang:not(.kp, .gx-khung-quan-tri) :is(.gx-nut, .bh button, .bh-nut, .tai-khoan-nut):not(:disabled):active::after {
+  inset-inline-start: 26%;
+  width: 48%;
+  background: var(--gx-nhan-anh-sang);
+  opacity: .55;
+}
+
+.gx-khung-trang .tk-dang-nhap .tai-khoan-nut:not(:disabled):active::after { background: var(--gx-nhan-dang-nhap); }
+
+@keyframes gx-troi-tinh-van {
+  from { transform: translate3d(-1.5%, -.7%, 0); }
+  to { transform: translate3d(1.5%, 1.1%, 0); }
+}
+
+@keyframes gx-sao-tho {
+  from { opacity: .45; }
+  to { opacity: .68; }
+}
+
+@keyframes gx-quang-tho {
+  from { opacity: .24; }
+  to { opacity: .62; }
+}
+
+@keyframes gx-quay-vien { to { transform: rotate(1turn); } }
+
+@keyframes gx-quet-sang {
+  0% { opacity: 0; transform: translateX(0); }
+  42% { opacity: .7; }
+  100% { opacity: 0; transform: translateX(174%); }
+}
+
+@keyframes gx-hien-khi-cuon {
+  from { opacity: .94; transform: translateY(.38rem); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes gx-quang-tieu-de {
+  from { opacity: .54; transform: translateX(0); }
+  to { opacity: .88; transform: translateX(28%); }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .gx-khung-trang:not(.gx-khung-quan-tri) .gx-vu-tru::before { animation: gx-troi-tinh-van 28s ease-in-out infinite alternate; }
+  .gx-khung-trang:not(.gx-khung-quan-tri) .gx-vu-tru::after { animation: gx-sao-tho 9s ease-in-out infinite alternate; }
+  .gx-khung-trang:not(.kp, .gx-khung-quan-tri) .gx-tieu-de-khung::after { animation: gx-quang-tieu-de 8s ease-in-out infinite alternate; }
+  .gx-khung-trang:not(.kp, .gx-khung-quan-tri) :is(.gx-hanh-dong .gx-nut-chinh, .tk-dang-nhap .tai-khoan-nut):not(:disabled)::before {
+    animation: gx-quang-tho 4.5s ease-in-out infinite alternate;
+  }
+  .gx-khung-trang:not(.kp, .gx-khung-quan-tri) .gx-len-dau::before { animation: gx-quay-vien 8s linear infinite; }
+  .gx-khung-trang:not(.kp, .gx-khung-quan-tri) [data-gx-hien]:not(:focus-within) { animation: gx-hien-khi-cuon .45s ease-out; }
+}
+
+@media (prefers-reduced-motion: no-preference) and (hover: hover) and (pointer: fine) {
+  .gx-khung-trang:not(.kp, .gx-khung-quan-tri) :is(.gx-nut, .bh button, .bh-nut, .tai-khoan-nut, .gx-khu, .gx-the-san-pham, .bh-the-sp) {
+    transition: transform .22s ease, opacity .2s ease;
+  }
+  .gx-khung-trang:not(.kp, .gx-khung-quan-tri) :is(.gx-nut, .bh button, .bh-nut, .tai-khoan-nut, .gx-khu, .gx-the-san-pham, .bh-the-sp):not(:disabled):hover::after {
+    animation: gx-quet-sang .63s ease-out;
+  }
+  .gx-khung-trang:not(.kp, .gx-khung-quan-tri) :is(.bh-khoi, .gx-tien-ich-noi-dung, .tk-bao-mat):is(:hover, :focus-within)::before {
+    opacity: .8;
+    animation: gx-quay-vien 9s linear infinite;
+  }
+  .gx-khung-trang .gx-them-gio:not(:disabled):is(:hover, :focus-visible)::before { animation: gx-quay-vien 8s linear infinite; }
+  .gx-khung-trang:not(.kp, .gx-khung-quan-tri) :is(.gx-nut, .bh button, .bh-nut, .tai-khoan-nut):not(:disabled):hover { transform: translateY(-2px); }
+  .gx-khung-trang:not(.kp, .gx-khung-quan-tri) :is(.gx-khu, .gx-the-san-pham, .bh-the-sp):hover {
+    transform: perspective(720px) translateY(-2px) rotateX(1.6deg) scale(1.008);
+  }
+  .gx-khung-trang:not(.kp, .gx-khung-quan-tri) :is(.gx-nut, .bh button, .bh-nut, .tai-khoan-nut):not(:disabled):active { transform: scale(.985); }
+}
+
+@media (max-width: 37.49rem) {
+  .gx-vu-tru::after { display: none; }
+  .gx-khung-trang:not(.gx-khung-quan-tri) .gx-vu-tru::before { animation: none; opacity: .72; }
+}
+
+@media (forced-colors: active) {
+  .gx-vu-tru { display: none; }
+  .gx-khung-trang:not(.kp, .gx-khung-quan-tri) :is(.bh-khoi, .gx-tien-ich-noi-dung, .tk-bao-mat)::before,
+  .gx-khung-trang:not(.kp, .gx-khung-quan-tri) :is(.bh-khoi, .gx-tien-ich-noi-dung, .tk-bao-mat)::after { display: none; }
+  .gx-icon-net { stroke: CanvasText; }
+  .gx-icon-nen, .gx-icon-dom { display: none; }
+  .gx-icon-net [fill]:not([fill='none']) { fill: CanvasText; }
+  .gx-khung-trang:not(.kp) :is(.bh h1, .tai-khoan-noi-dung h1, .tk-ho-so-dau h1, .tk-dang-nhap-the h1, .gx-tien-ich h1) {
+    color: CanvasText;
+    background: none;
+    filter: none;
+  }
+}

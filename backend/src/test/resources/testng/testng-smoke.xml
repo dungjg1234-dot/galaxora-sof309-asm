@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="GALAXORA-UI-Smoke" verbose="1">
+    <test name="Smoke-UI">
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.galaxora.asm.ui.tests"/>
+        </packages>
+    </test>
+</suite>

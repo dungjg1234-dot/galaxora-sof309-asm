@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="vi">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nạp sản phẩm mẫu GALAXORA</title>
+<style>
+  body { margin: 2rem auto; width: min(100% - 2rem, 60rem); font: 1rem system-ui; color: #eef1ff; background: #151827; }
+  button { padding: .65rem 1rem; }
+  pre { white-space: pre-wrap; overflow-wrap: anywhere; }
+</style>
+<main>
+  <h1>Nạp 39 sản phẩm mẫu GALAXORA</h1>
+  <p>Chạy bằng phiên ADMIN của cửa hàng cục bộ.</p>
+  <button type="button">Nạp sản phẩm mẫu</button>
+  <pre role="status"></pre>
+</main>
+<script type="module">
+  import { napSanPhamMau } from './napSanPhamMau.mjs'
+  const nut = document.querySelector('button')
+  const ketQua = document.querySelector('pre')
+  nut.onclick = async () => {
+    nut.disabled = true
+    ketQua.textContent = 'Đang kiểm tra và nạp dữ liệu…'
+    try {
+      const kq = await napSanPhamMau()
+      ketQua.textContent = (kq.daNap ? 'Bộ mẫu đã được nạp trước đó.' : 'Đã nạp bộ sản phẩm mẫu.')
+        + '\n' + JSON.stringify(kq, null, 2)
+    } catch (loi) {
+      ketQua.textContent = loi instanceof Error ? loi.message : String(loi)
+    } finally {
+      nut.disabled = false
+    }
+  }
+</script>
+</html>

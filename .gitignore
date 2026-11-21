@@ -1,0 +1,18 @@
+# Build / phụ thuộc
+node_modules/
+dist/
+target/
+*.tsbuildinfo
+
+# Secret và cấu hình máy cá nhân (không đưa vào Git)
+.env
+.env.*
+*.local
+
+# IDE và tệp tạm
+frontend/.galaxora-seed-local/
+.idea/
+nbproject/private/
+.vscode/
+*.log
+.DS_Store

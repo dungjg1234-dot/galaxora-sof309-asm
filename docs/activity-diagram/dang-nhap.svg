@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="760" viewBox="0 0 980 760" role="img" font-family="Arial, sans-serif"><title>Đăng nhập</title><defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M 0 0 L 7 4 L 0 8" fill="none" stroke="#000" stroke-width="1.2"/></marker></defs><rect x="0" y="0" width="980" height="760" fill="#fff"/><rect x="35" y="31" width="910" height="40" fill="#fff" stroke="#000"/>
+<text x="490" y="57" text-anchor="middle" font-size="21" font-weight="700">Đăng nhập</text>
+<rect x="35" y="71" width="455" height="661" fill="#fff" stroke="#000"/>
+<line x1="35" x2="490" y1="105" y2="105" stroke="#000"/>
+<text x="262.5" y="94" text-anchor="middle" font-size="17" font-weight="400">Người dùng</text>
+<rect x="490" y="71" width="455" height="661" fill="#fff" stroke="#000"/>
+<line x1="490" x2="945" y1="105" y2="105" stroke="#000"/>
+<text x="717.5" y="94" text-anchor="middle" font-size="17" font-weight="400">Hệ thống</text>
+<path d="M 260 151.5 L 260 178" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 345 201 L 562.625 201" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 687 224 L 687 285 L 270 285" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 260 295 L 260 321" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 392.625 349 L 554.375 349" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 687 377 L 687 417" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 687 447 L 687 545" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 687 591 L 687 609" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 687 655 L 687 690.5" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 702 432 L 902 432 L 902 461 L 796 461 L 796 477" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<path d="M 884.5 500 L 936 500 L 936 265 L 690.5 265 M 683.5 265 L 87 265 L 87 285 L 250 285" stroke="#000" stroke-width="1.3" fill="none" marker-end="url(#arrow)"/>
+<circle cx="260" cy="143" r="8.5" fill="#000" stroke="#000" stroke-width="1.25"/>
+<rect x="175" y="178" width="170" height="46" rx="6" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<text x="260" y="206" text-anchor="middle" font-size="16" font-weight="400">Chọn đăng nhập</text>
+<rect x="562.625" y="178" width="248.75" height="46" rx="6" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<text x="687" y="206" text-anchor="middle" font-size="16" font-weight="400">Hiển thị biểu mẫu đăng nhập</text>
+<polygon points="260,275 270,285 260,295 250,285" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<rect x="127.375" y="321" width="265.25" height="56" rx="6" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<text x="260" y="344.5" text-anchor="middle" font-size="16" font-weight="400">Nhập email hoặc số điện thoại</text>
+<text x="260" y="363.5" text-anchor="middle" font-size="16" font-weight="400">và mật khẩu</text>
+<rect x="554.375" y="321" width="265.25" height="56" rx="6" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<text x="687" y="344.5" text-anchor="middle" font-size="16" font-weight="400">Kiểm tra thông tin đăng nhập,</text>
+<text x="687" y="363.5" text-anchor="middle" font-size="16" font-weight="400">khóa tài khoản và giới hạn thử</text>
+<polygon points="687,417 702,432 687,447 672,432" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<text x="591" y="417" text-anchor="middle" font-size="14" font-weight="700">Đăng nhập hợp lệ?</text>
+<rect x="707.5" y="477" width="177" height="46" rx="6" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<text x="796" y="505" text-anchor="middle" font-size="16" font-weight="400">Hiển thị thông báo lỗi</text>
+<rect x="575" y="545" width="224" height="46" rx="6" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<text x="687" y="573" text-anchor="middle" font-size="16" font-weight="400">Tạo phiên và nạp vai trò</text>
+<rect x="575" y="609" width="224" height="46" rx="6" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<text x="687" y="637" text-anchor="middle" font-size="16" font-weight="400">Hiển thị Trang chủ</text>
+<circle cx="687" cy="702" r="11.5" fill="#fff" stroke="#000" stroke-width="1.25"/>
+<circle cx="687" cy="702" r="6.5" fill="#000"/>
+<rect x="693.2" y="520" width="39.6" height="17" fill="#fff"/>
+<text x="713" y="532" text-anchor="middle" font-size="14" font-weight="400">[Có]</text>
+<rect x="823.85" y="406" width="60.300000000000004" height="17" fill="#fff"/>
+<text x="854" y="418" text-anchor="middle" font-size="14" font-weight="400">[Không]</text>
+<text x="490" y="750" text-anchor="middle" font-size="13" font-weight="400">TK-04, TK-07</text></svg>
